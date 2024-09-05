@@ -1,10 +1,13 @@
 class Movie
 {
+    private static int _id = 0;
+    public int Id {get; set;}
     public string Title {get; set;}
 
     public Movie(string title)
     {
         Title = title;
+        Id = _id++;
     }
 }
 
@@ -26,7 +29,7 @@ internal class Program
             {
                 return Results.BadRequest();
             }
-            
+
             movies.Add(movie);
 
             return Results.Created();
