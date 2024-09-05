@@ -1,0 +1,10 @@
+                        --Tekstfil med hjelpsomme kommentarer vi gikk gjennom--
+
+-- dotnet new list vil gi en liste over mulige templates du kan bygge ut i fra
+I dette prosjektet bruker vi dotnet new web
+
+-- ctrl + c for å stoppe programmet fra å kjøre
+viktig å gjøre etter du har endret noe, hvis ikke får du feil
+
+-- automatisk lag en gitignore fil
+dotnet new gitignore
